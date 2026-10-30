@@ -1,4 +1,4 @@
-import axios from 'axios'; // Importa a biblioteca axios para fazer requisições HTTP de páginas externas
+import axios from "axios"; // Importa a biblioteca axios para fazer requisições HTTP de páginas externas
 
 export const api = axios.create({
     baseURL: import.meta.env.VITE_API_URL, // Define a URL base para as requisições, que é obtida de uma variável de ambiente
